@@ -319,7 +319,7 @@
             line-height: 1.1;
             animation: fadeInUp 1s ease-out 0.2s backwards;
         }
-        
+
         .hero-title .highlight {
             display: block;
             font-size: clamp(5rem, 10vw, 9rem);
@@ -1059,6 +1059,22 @@
                 padding: 2rem;
             }
         }
+
+        picture {
+            width: 100%;
+            margin: auto;
+        }
+
+        .menuitem {
+            margin: auto;
+            width: 40%;
+            display: block;
+            border-radius: 10px;
+            transition: var(--transition-smooth);
+        }
+        .menuitem:hover{
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -1168,51 +1184,54 @@
             </div>
         </div>
     </section>
-
     <!-- Menu Section -->
     <section class="section" id="menu">
         <h2 class="section-title">قائمة الطعام</h2>
         <p class="section-subtitle">اكتشف مجموعتنا المتنوعة من الأطباق الشهية المحضرة بعناية</p>
+        <picture>
+            <img class="menuitem" src="./zigo_Menu.jpg" alt="زنجر دجاج">
+        </picture>
+
         <div class="menu-grid">
             <div class="menu-item">
-                <img src="zigo_Minu.jpg" alt="زنجر دجاج">
+                <img src="./1.jpg" alt="زنجر دجاج">
                 <div class="menu-overlay">
-                    <h3 class="menu-title">زنجر كلاسيك</h3>
+                    <h3 class="menu-title">زنجر كلاسيك <span style="display: block;">150$ </span></h3>
                     <p class="menu-description">دجاج مقرمش حار مع صوص مميز</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="zigo_Minu.jpg" alt="كريب">
+                <img src="./2.jpg" alt="كريب">
                 <div class="menu-overlay">
-                    <h3 class="menu-title">كريب شهي</h3>
+                    <h3 class="menu-title">كريب شهي <span style="display: block;">150$ </span></h3>
                     <p class="menu-description">كريب طري محشو بالدجاج والخضار</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="zigo_Minu.jpg" alt="بروست">
+                <img src="./3.webp" alt="بروست">
                 <div class="menu-overlay">
-                    <h3 class="menu-title">بروست دجاج</h3>
+                    <h3 class="menu-title">بروست دجاج <span style="display: block;">150$ </span></h3>
                     <p class="menu-description">دجاج كامل مشوي بالتتبيلة الخاصة</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="zigo_Minu.jpg" alt="بطاطس">
+                <img src="./4.webp" alt="بطاطس">
                 <div class="menu-overlay">
-                    <h3 class="menu-title">بطاطس مقرمشة</h3>
+                    <h3 class="menu-title">بطاطس مقرمشة <span style="display: block;">150$ </span></h3>
                     <p class="menu-description">بطاطس ذهبية مقرمشة مع صوص خاص</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="zigo_Minu.jpg" alt="ساندويتش">
+                <img src="./5.webp" alt="ساندويتش">
                 <div class="menu-overlay">
-                    <h3 class="menu-title">ساندويتش دجاج</h3>
+                    <h3 class="menu-title"> ساندويتش دجاج <span style="display: block;">150$ </span></h3>
                     <p class="menu-description">ساندويتش دجاج مع خس وطماطم</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="zigo_Minu.jpg" alt="وجبات">
+                <img src="./1.jpg" alt="وجبات">
                 <div class="menu-overlay">
-                    <h3 class="menu-title">وجبات عائلية</h3>
+                    <h3 class="menu-title">وجبات عائلية <span style="display: block;">150$ </span></h3>
                     <p class="menu-description">وجبات كاملة لجميع أفراد العائلة</p>
                 </div>
             </div>
@@ -1294,20 +1313,20 @@
             <p class="footer-tagline">أصل القرمشة في كل قطعة</p>
 
 
-                <div class="footer-social">
-                    <a href="https://www.facebook.com/Zigo.FriedChicken" target="_blank" class="social-icon"
-                        title="Facebook">
-                        <img class="social-icon" src="./facebook.webp" alt="">
+            <div class="footer-social">
+                <a href="https://www.facebook.com/Zigo.FriedChicken" target="_blank" class="social-icon"
+                    title="Facebook">
+                    <img class="social-icon" src="./facebook.webp" alt="">
 
-                    </a>
-                    <a href="https://www.instagram.com/zigo.friedchicken" target="_blank" class="social-icon"
-                        title="Instagram">
-                        <img class="social-icon" src="./instagram.webp" alt="">
-                    </a>
-                    <a href="https://wa.me/201550647300" target="_blank" class="social-icon" title="WhatsApp">
-                        <img class="social-icon" src="./whatsapp.webp" alt="">
-                    </a>
-                </div>
+                </a>
+                <a href="https://www.instagram.com/zigo.friedchicken" target="_blank" class="social-icon"
+                    title="Instagram">
+                    <img class="social-icon" src="./instagram.webp" alt="">
+                </a>
+                <a href="https://wa.me/201550647300" target="_blank" class="social-icon" title="WhatsApp">
+                    <img class="social-icon" src="./whatsapp.webp" alt="">
+                </a>
+            </div>
 
             <div class="footer-bottom">
                 <p>&copy; 2025 زيجو - Fried Chicken. جميع الحقوق محفوظة.</p>
